@@ -6,6 +6,10 @@
 .DS_Store
 .atom/
 .build/
+# 2. Excepción: Volver a incluir la subcarpeta build/web/
+!build/web/
+# 3. Excepción: Volver a incluir el CONTENIDO de build/web/
+!build/web/**
 .buildlog/
 .history
 .svn/
