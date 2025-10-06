@@ -74,6 +74,7 @@ flutter:
     - assets/images/
     - assets/model/
     - assets/model-viewer.min.js
+
   #  - assets/.env
 
   # An image asset can refer to one or more resolution-specific "variants", see
