@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:proyecto_3d/components/app_background.dart';
 import 'package:proyecto_3d/config/router/app_router.dart';
@@ -11,10 +10,7 @@ import 'package:proyecto_3d/presentation/dish_providers.dart';
 //==============================================================================
 // 1. PUNTO DE ENTRADA DE LA APLICACIÓN
 //==============================================================================
-Future<void> main() async {
-  // Carga las variables de entorno
-  await dotenv.load(fileName: ".env");
-
+void main() {
   // Cambia a `true` para usar datos mock, `false` para usar la API (por defecto).
   const bool useMockData = true;
 

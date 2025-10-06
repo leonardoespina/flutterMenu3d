@@ -1,11 +1,8 @@
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-
 class AppConfig {
-  static String get apiBaseUrl {
-    return dotenv.env['API_BASE_URL'] ?? 'https://default-api.com';
-  }
+  // TODO: Reemplaza con la URL base de tu API
+  static const String apiBaseUrl = 'http://localhost:5000';
 
-  static String get uploadsBaseUrl {
-    return dotenv.env['UPLOADS_BASE_URL'] ?? 'https://default-uploads.com/';
-  }
+  // TODO: Reemplaza con la URL base para las subidas
+  static const String uploadsBaseUrl =
+      'https://eetgxoanfvytdavmjuvo.supabase.co/storage/v1/object/public/uploads/';
 }
