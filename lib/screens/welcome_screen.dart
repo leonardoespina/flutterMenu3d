@@ -42,7 +42,7 @@ class WelcomeScreen extends StatelessWidget {
                       ),
                       SizedBox(height: height * 0.01),
                       Text(
-                        'La Cabaña Steak House',
+                        'Tu Restaurante',
                         textAlign: TextAlign.center,
                         style: Theme.of(
                           context,
