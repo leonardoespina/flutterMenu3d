@@ -13,7 +13,7 @@ import 'package:proyecto_3d/presentation/dish_providers.dart';
 //==============================================================================
 Future<void> main() async {
   // Carga las variables de entorno
-  await dotenv.load(fileName: "assets/.env");
+  await dotenv.load(fileName: ".env");
 
   // Cambia a `true` para usar datos mock, `false` para usar la API (por defecto).
   const bool useMockData = true;
